@@ -1,0 +1,66 @@
+.gallery-img {
+  transition: transform .3s ease, box-shadow .3s ease;
+  cursor: pointer;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,.3);
+}
+
+
+
+#prestations .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#prestations .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+
+#avis .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#avis .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+#avis .text-warning {
+  font-size: 1.2rem;
+}
+footer a:hover {
+  color: #0d6efd; /* Couleur Bootstrap Primary */
+}
+
+
+.footer .footer-link{
+  color: inherit;
+  opacity: .75;
+  text-decoration: none;
+}
+.footer .footer-link:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.footer{
+  color: aliceblue;
+  background-color: #232427;
+}
+/* Icônes et textes colorés -> noir */
+#prestations .bi,
+#contact .bi,
+#prestations .text-primary,
+#prestations .text-success,
+#prestations .text-warning,
+#contact .text-primary,
+#contact .text-success,
+#contact .text-warning {
+  color: #4e4040 !important;
+}
+
+/* Taille/présentation des icônes */
+#prestations .fs-1, #contact .fs-1 { font-size: 2rem !important; }
+
+/* Prix en noir (au lieu de bleu/vert/jaune) */
+#prestations .fw-bold { color: #111 !important; }
