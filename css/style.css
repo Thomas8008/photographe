@@ -64,3 +64,37 @@ footer a:hover {
 
 /* Prix en noir (au lieu de bleu/vert/jaune) */
 #prestations .fw-bold { color: #111 !important; }
+
+
+/* Navbar transparente */
+.navbar {
+  background: transparent;
+  transition: background-color 0.3s ease;
+}
+
+/* Navbar en couleur au scroll */
+.navbar.scrolled {
+  background-color: rgb(182, 178, 178);
+}
+
+/* Couleur du brand */
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar-brand:hover {
+  color: #fff !important;
+}
+
+/* Liens */
+.nav-link {
+  color: #000000 !important;
+  transition: color 0.2s ease;
+  margin: 0 20px; /* espace horizontal de 15px */
+font-size: 1.2rem;
+
+}
+
+.nav-link:hover {
+  color: #000000 !important; /* couleur accent */
+}
